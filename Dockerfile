@@ -1,2 +1,2 @@
-FROM nginx:latest
-COPY . /usrt/share/nginx/html
+FROM ubuntu/apache2
+COPY . /var/www/html
